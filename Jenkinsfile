@@ -1,7 +1,7 @@
 pipeline {
     environment {
         registry = 'israelaminu/ml_model'
-        registryCredential = 'dockerhub_id'
+        registryCredential = 'harigouds'
         dockerImage = ''
     }
     agent any
